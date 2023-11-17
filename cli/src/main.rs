@@ -10,7 +10,7 @@ use std::io;
 use std::io::prelude::*;
 
 fn main() { 
-    let matches = App::new("zecpaperwaller")
+    let matches = App::new("zecpaperwallet")
        .version(version::version())
        .about("A command line Zcash Sapling paper wallet generator")
        .arg(Arg::with_name("testnet")
